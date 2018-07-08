@@ -5,7 +5,6 @@ def selection_sort(lst_sort):
         for j in range(i + 1, len(lst_sort)):
             if lst_sort[j] < lst_sort[min_index]:
                 min_index = j
-
         temp = lst_sort[i]
         lst_sort[i] = lst_sort[min_index]
         lst_sort[min_index] = temp
